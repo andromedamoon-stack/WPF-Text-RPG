@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+	<PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\locations\agora.jpg" />
+    <None Remove="Images\locations\amphitheater.jpg" />
+    <None Remove="Images\locations\building1.jpg" />
+    <None Remove="Images\locations\building2.jpg" />
+    <None Remove="Images\locations\cityGate.jpg" />
+    <None Remove="Images\locations\farmhouse.jpg" />
+    <None Remove="Images\locations\fields.jpg" />
+    <None Remove="Images\locations\garden.jpg" />
+    <None Remove="Images\locations\herbalist.jpg" />
+    <None Remove="Images\locations\house.jpg" />
+    <None Remove="Images\locations\rat.jpg" />
+    <None Remove="Images\locations\snake.jpg" />
+    <None Remove="Images\locations\trader.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\locations\agora.jpg" />
+    <Resource Include="Images\locations\amphitheater.jpg" />
+    <Resource Include="Images\locations\building1.jpg" />
+    <Resource Include="Images\locations\building2.jpg" />
+    <Resource Include="Images\locations\cityGate.jpg" />
+    <Resource Include="Images\locations\farmhouse.jpg" />
+    <Resource Include="Images\locations\fields.jpg" />
+    <Resource Include="Images\locations\garden.jpg" />
+    <Resource Include="Images\locations\herbalist.jpg" />
+    <Resource Include="Images\locations\house.jpg" />
+    <Resource Include="Images\locations\rat.jpg" />
+    <Resource Include="Images\locations\snake.jpg" />
+    <Resource Include="Images\locations\trader.jpg" />
+  </ItemGroup>
+
+</Project>
